@@ -23,7 +23,7 @@ The goal of the this project was to model a Multilayer Perceptron experimentally
 
 The [ImageJ](https://imagej.nih.gov/ij/ "Link to ImageJ software") was used to process the images, extract the attributes and generate the ARFF file for usage in the model training.
 
-The dataset used in the project is from [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/ "Link to the dataset")
+The dataset used in the project is from [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/ "Link to the dataset").
 
 -------------------------
 
