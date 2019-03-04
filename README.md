@@ -1,5 +1,7 @@
 #Artificial Neural Network implementation using Weka and ImageJ
 
+#Artificial Neural Network implementation using Weka and ImageJ
+
 This Java application uses a MultilayerPerceptron model that is able to classify images from 10 different categories, such as:
 
 - Leopards
