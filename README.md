@@ -1,4 +1,4 @@
-#Artificial Neural Network implementation using Weka and ImageJ
+# Artificial Neural Network implementation using Weka and ImageJ
 
 This Java application uses a MultilayerPerceptron model that is able to classify images from 10 different categories, such as:
 
@@ -15,7 +15,7 @@ This Java application uses a MultilayerPerceptron model that is able to classify
 
 -------------------------
 
-##About the project
+## About the project
 
 This application is an implementation of a college project in the Artificial Intelligence course. 
 
@@ -27,7 +27,7 @@ The dataset used in the project is from [Caltech101] (http://www.vision.caltech.
 
 -------------------------
 
-##Application details
+## Application details
 
 - You need to provide a path in the "File Path" field to a folder in your computer where the program can get the image you want the model to classify, if more than 1 image is in the folder, the program will process only the first one, so if you want to use more than one image, do it one by one.
 
