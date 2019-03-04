@@ -1,0 +1,1346 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.9 -N 300 -V 0 -S 0 -E 20 -H 39
+Relation:     AP2
+Instances:    50
+Attributes:   19
+              min
+              maxcount
+              umean
+              skewness
+              stddev
+              xCenterOfMass
+              yCenterOfMass
+              mean
+              areaFraction
+              histMax
+              histMin
+              median
+              xCentroid
+              yCentroid
+              upperThreshold
+              pixelCount
+              dmode
+              area
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.36685588601655306
+    Node 10    -0.5188954484779918
+    Node 11    0.3914382140430819
+    Node 12    0.06105436556128812
+    Node 13    0.7700253351800506
+    Node 14    0.7476154880629016
+    Node 15    -0.09262085728921719
+    Node 16    1.2477586278613673
+    Node 17    1.1133077020308302
+    Node 18    -0.4001152208183447
+    Node 19    0.2308106604813319
+    Node 20    -1.3200352146572503
+    Node 21    -0.5718178226425611
+    Node 22    0.06956705572736385
+    Node 23    0.6235241242383351
+    Node 24    -0.2190591974241562
+    Node 25    -0.8803504318555423
+    Node 26    -0.6571593594598959
+    Node 27    -1.453720734894566
+    Node 28    0.8236061187696302
+    Node 29    -0.5811643801378287
+    Node 30    1.2275291487328914
+    Node 31    -1.689636563075046
+    Node 32    0.9242402339926381
+    Node 33    -0.7931348943197176
+    Node 34    -1.0533095151751874
+    Node 35    0.2831967588989972
+    Node 36    -1.4061397587810047
+    Node 37    -0.4414331400907961
+    Node 38    -0.28002095667466836
+    Node 39    -0.30998059176970183
+    Node 40    0.36630415574914793
+    Node 41    -0.8745939008644414
+    Node 42    -0.27078401668595675
+    Node 43    -0.6080010593123111
+    Node 44    -0.1701332442401519
+    Node 45    -0.16963238527828556
+    Node 46    -0.916358278131947
+    Node 47    -0.9624866959080844
+    Node 48    0.22907177075787363
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.39582810402095553
+    Node 10    -0.9236056615383545
+    Node 11    -0.5607329754204747
+    Node 12    -0.2780368200344911
+    Node 13    0.31896025913867193
+    Node 14    -1.312923255718902
+    Node 15    0.5618531936092559
+    Node 16    0.27897854241198067
+    Node 17    1.010356180337326
+    Node 18    0.41439293107195285
+    Node 19    0.06719933535617117
+    Node 20    0.05559182846045171
+    Node 21    -0.6972705533821538
+    Node 22    -1.000135529347161
+    Node 23    -0.7528669552031976
+    Node 24    0.4077369229470575
+    Node 25    -0.3448523929301142
+    Node 26    -0.1259290417392374
+    Node 27    -0.8511208464144614
+    Node 28    -0.14033060021985536
+    Node 29    -0.030215192792655155
+    Node 30    -0.3878411327662214
+    Node 31    -1.0163154358644653
+    Node 32    0.26397768126172944
+    Node 33    0.18107232608606266
+    Node 34    -0.8893151302803781
+    Node 35    -0.6510486837348033
+    Node 36    -0.7525585750143969
+    Node 37    0.9348484006213634
+    Node 38    -0.2946828890691367
+    Node 39    0.5169236274170234
+    Node 40    0.5276490141599532
+    Node 41    0.3895656957328971
+    Node 42    -0.44351492483063126
+    Node 43    -0.8610594144111653
+    Node 44    -0.17866294255935175
+    Node 45    0.21091236441343247
+    Node 46    -0.40811159535169717
+    Node 47    0.8968496055105956
+    Node 48    -0.6996640220013167
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.3862740737568461
+    Node 10    0.005117021369537337
+    Node 11    -0.9341235176980422
+    Node 12    -0.7833976666066099
+    Node 13    1.2397475409399163
+    Node 14    -1.0611693682974535
+    Node 15    0.08232865841772677
+    Node 16    0.5761895536687394
+    Node 17    -0.8314863018499109
+    Node 18    -0.11057877211765982
+    Node 19    -0.3348595175384536
+    Node 20    0.4802953725026709
+    Node 21    -0.6259108809628144
+    Node 22    -0.005912457704715708
+    Node 23    0.0017814937550731384
+    Node 24    0.08187805393255343
+    Node 25    -0.29669182493279495
+    Node 26    -1.11751963138194
+    Node 27    -0.29774115212893876
+    Node 28    -0.16320049007671267
+    Node 29    0.10941807927999951
+    Node 30    0.5547636922954727
+    Node 31    -0.5174180416060161
+    Node 32    -0.14896659362613307
+    Node 33    0.7963141032460986
+    Node 34    -0.31443281086443076
+    Node 35    -0.9523922785595694
+    Node 36    0.29330110741461635
+    Node 37    -0.037849080405085646
+    Node 38    -1.1102860572419495
+    Node 39    0.9749202656937718
+    Node 40    -0.6998016476512059
+    Node 41    -0.3619195622894934
+    Node 42    -0.8168295878861912
+    Node 43    -0.10016684518301748
+    Node 44    -0.5151630884704843
+    Node 45    -0.2796952208211982
+    Node 46    0.5571340241034005
+    Node 47    -0.9597158152013816
+    Node 48    0.3550196620808081
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6756357584498875
+    Node 10    0.2958215432071734
+    Node 11    0.35056110092240506
+    Node 12    0.20795042293440583
+    Node 13    -1.6874091608438526
+    Node 14    0.8065495084259655
+    Node 15    -1.1252853782102867
+    Node 16    -1.493538861769088
+    Node 17    -1.2599649950369334
+    Node 18    -1.0247805401960446
+    Node 19    -0.6947915210839367
+    Node 20    -1.0937369552651608
+    Node 21    0.5151563043455586
+    Node 22    0.514492414002163
+    Node 23    0.19748555527415984
+    Node 24    -1.2231767905099136
+    Node 25    -0.3521951258915478
+    Node 26    0.08003022259688071
+    Node 27    0.6882500875768025
+    Node 28    -0.6036669819908268
+    Node 29    -0.8225307055186941
+    Node 30    -0.7939425507703921
+    Node 31    0.6498571576206805
+    Node 32    -1.1293544929082715
+    Node 33    -1.1277423296011542
+    Node 34    0.6186091141369401
+    Node 35    0.49264188028471956
+    Node 36    -0.0030149656945626813
+    Node 37    -1.3779921586298438
+    Node 38    0.5428549598404293
+    Node 39    -1.403281090440767
+    Node 40    -0.9120755085662962
+    Node 41    -0.9918852456458298
+    Node 42    0.42417460237490245
+    Node 43    0.49449265934714076
+    Node 44    -0.3638436892202416
+    Node 45    -0.9817313103241482
+    Node 46    -0.642791393424917
+    Node 47    -1.2304885975893238
+    Node 48    0.1499810062489421
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.26495334173559953
+    Node 10    0.28506968140912614
+    Node 11    0.07166156766080369
+    Node 12    -0.522035246985151
+    Node 13    0.35086557992971323
+    Node 14    0.9404117421952957
+    Node 15    -0.5597672156997302
+    Node 16    0.03678836846458641
+    Node 17    -1.0897639976560425
+    Node 18    -0.28787042864389056
+    Node 19    -0.3492054415150336
+    Node 20    -0.4126223210129299
+    Node 21    -0.13029914826374325
+    Node 22    0.34097461264260226
+    Node 23    0.42301461131046236
+    Node 24    -0.3253535225064733
+    Node 25    -0.1532087287247513
+    Node 26    -0.9261960545215465
+    Node 27    -0.05145938290356523
+    Node 28    -0.0918403496225535
+    Node 29    -0.16074184311875098
+    Node 30    0.8571723811205813
+    Node 31    0.23505999945042322
+    Node 32    -0.15256395494535677
+    Node 33    -0.6135928821465131
+    Node 34    0.04054671422691431
+    Node 35    -0.008574309056266822
+    Node 36    0.19123735934663583
+    Node 37    -0.8215359940748992
+    Node 38    -0.8623745272915296
+    Node 39    -0.645522954979745
+    Node 40    -0.7939081361629606
+    Node 41    -0.6805598882008503
+    Node 42    -0.5299300315073636
+    Node 43    -0.10416633141067419
+    Node 44    -0.29016567816372285
+    Node 45    -0.21836643772972797
+    Node 46    -0.006051792321187235
+    Node 47    -1.0958119881498944
+    Node 48    0.40648431717216515
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.2460150923434822
+    Node 10    0.6057331914091579
+    Node 11    -0.47987953517807386
+    Node 12    -0.1860501262888159
+    Node 13    -0.9127273088454682
+    Node 14    -0.045314919461206596
+    Node 15    -0.3467985588609982
+    Node 16    -0.1125572697357073
+    Node 17    -0.3912280737624661
+    Node 18    -0.024372412571000174
+    Node 19    -0.44754798234922855
+    Node 20    0.42899096350096644
+    Node 21    -0.07058030652685951
+    Node 22    -0.981684352730524
+    Node 23    0.09562681628345497
+    Node 24    0.11748623867990253
+    Node 25    -0.29762941728296444
+    Node 26    0.05082727833294738
+    Node 27    -0.21479747446351335
+    Node 28    -0.1969258966452492
+    Node 29    -0.18533857449738741
+    Node 30    0.33884870760532343
+    Node 31    0.19799034320706654
+    Node 32    0.5578867077890675
+    Node 33    -0.5000336430515063
+    Node 34    -0.5262912983887575
+    Node 35    -0.35542118217916924
+    Node 36    0.7953091614094003
+    Node 37    0.025659458510406196
+    Node 38    -0.3076893593708403
+    Node 39    -0.8729271437432655
+    Node 40    -0.7974117983213386
+    Node 41    0.21467013372374083
+    Node 42    -0.2585508541570767
+    Node 43    -0.2995436052112365
+    Node 44    0.3029709642947678
+    Node 45    0.0549586155093883
+    Node 46    -0.41021114851261953
+    Node 47    0.4805128365710722
+    Node 48    -0.6228222572363682
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.26897258317753386
+    Node 10    0.13720122317119243
+    Node 11    -0.245343377731595
+    Node 12    -0.3125959649886273
+    Node 13    -0.6477005753429781
+    Node 14    -0.3031055457372459
+    Node 15    -0.3561839445335134
+    Node 16    -0.47749398485109895
+    Node 17    -0.5333565307920873
+    Node 18    -0.025865891781951224
+    Node 19    -0.36487186698434876
+    Node 20    0.31320878108763894
+    Node 21    -0.010682514493215459
+    Node 22    -0.5222408984661077
+    Node 23    -0.2673825143857494
+    Node 24    -0.132557564942705
+    Node 25    0.07068935453738683
+    Node 26    0.060948281460938614
+    Node 27    0.15330567992512986
+    Node 28    -0.3987154350467666
+    Node 29    0.021512745751614736
+    Node 30    -0.47530710573235974
+    Node 31    0.3827285973349543
+    Node 32    -0.28985340733374854
+    Node 33    -0.13431043361636583
+    Node 34    0.0013898143210104958
+    Node 35    -0.2197597894184084
+    Node 36    0.5737840694661583
+    Node 37    -0.05957507955921443
+    Node 38    -0.19700320359554532
+    Node 39    -0.3195866560434754
+    Node 40    -0.5852652071516674
+    Node 41    0.17473413900837917
+    Node 42    -0.09700374731665676
+    Node 43    -0.1350845432263368
+    Node 44    -0.03511403089255199
+    Node 45    -0.055941399531337324
+    Node 46    0.19182879315005855
+    Node 47    0.5829826657144708
+    Node 48    -0.43174285935465295
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.17676197375957245
+    Node 10    -0.3167749543336927
+    Node 11    -0.23327577940948693
+    Node 12    -0.12885486370333507
+    Node 13    -0.13019168746014118
+    Node 14    -0.5059423964179515
+    Node 15    0.01730503471132342
+    Node 16    -0.5481492829169408
+    Node 17    -0.14655551476422715
+    Node 18    -0.27027886198754636
+    Node 19    -0.12951924402804038
+    Node 20    0.05185443351059612
+    Node 21    -0.010846321323376594
+    Node 22    -0.011831650305567968
+    Node 23    -0.4766876085523551
+    Node 24    -0.20594267566902172
+    Node 25    0.025285034749805323
+    Node 26    -0.012711584026072753
+    Node 27    0.1086928617279072
+    Node 28    -0.35714582246097343
+    Node 29    0.03330396568583679
+    Node 30    -0.7128782464651429
+    Node 31    0.02103779470141913
+    Node 32    -0.4540358938447961
+    Node 33    0.2460797900076126
+    Node 34    0.090868160630727
+    Node 35    -0.26651457566934583
+    Node 36    0.08405513055802098
+    Node 37    -0.17513972862292312
+    Node 38    0.02241819206135233
+    Node 39    0.14857782542277748
+    Node 40    0.06117586281299409
+    Node 41    -0.012785249340534332
+    Node 42    0.07055793214436447
+    Node 43    0.05923500339496888
+    Node 44    -0.16780598298680693
+    Node 45    -0.20831437276215067
+    Node 46    0.2398173052780037
+    Node 47    -0.08738140439733735
+    Node 48    -0.2262799126001981
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.3071820045141734
+    Node 10    -1.0041893257482895
+    Node 11    0.278311376997631
+    Node 12    0.13222529589414492
+    Node 13    -0.3918743090079796
+    Node 14    0.29397221426175485
+    Node 15    0.07473112150109847
+    Node 16    -0.8718549461452854
+    Node 17    0.8491295491461425
+    Node 18    -0.30900510621395294
+    Node 19    0.44208891358849617
+    Node 20    -0.7603333513085189
+    Node 21    -0.11126490954995726
+    Node 22    0.42939245791051994
+    Node 23    -0.6225809753574766
+    Node 24    -0.41502556017098474
+    Node 25    0.1229979539838514
+    Node 26    0.4423786620322386
+    Node 27    -0.2879636839496845
+    Node 28    0.09363974732746502
+    Node 29    -0.06225776893446905
+    Node 30    -0.9119681129311065
+    Node 31    -0.4927439863803696
+    Node 32    -0.5895901289509088
+    Node 33    -0.2395154234495313
+    Node 34    0.007938560596561025
+    Node 35    0.3277858754898262
+    Node 36    -1.3219697105735873
+    Node 37    -0.37858885100909956
+    Node 38    0.5518819502892748
+    Node 39    -0.39409784883973387
+    Node 40    1.0383349491086313
+    Node 41    -0.4136065937152854
+    Node 42    0.19669028663962643
+    Node 43    -0.019067250920545283
+    Node 44    -0.1883783270529296
+    Node 45    -0.18520633774183007
+    Node 46    -0.349156988833383
+    Node 47    -0.6124867790993739
+    Node 48    -0.34094496031986554
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.35376078121434096
+    Node 10    -0.02696105527751184
+    Node 11    -0.5724973219399766
+    Node 12    -0.4605052207739903
+    Node 13    -0.3323995893233008
+    Node 14    -0.856183860052076
+    Node 15    -0.265766416331836
+    Node 16    -0.5749827189037984
+    Node 17    -0.7367452565450274
+    Node 18    0.08248828623227787
+    Node 19    -0.4110693498908673
+    Node 20    0.6275185755953718
+    Node 21    0.040974601997412145
+    Node 22    -0.6363052472607493
+    Node 23    -0.4699785619928318
+    Node 24    0.03424914983954631
+    Node 25    0.21811964017941352
+    Node 26    -0.34707637552505505
+    Node 27    0.2203650479335303
+    Node 28    -0.7432118516449105
+    Node 29    0.10842964586222333
+    Node 30    -0.5529440161677119
+    Node 31    0.4809076956332228
+    Node 32    -0.45940959431581413
+    Node 33    0.20161846118103197
+    Node 34    0.10676932749620972
+    Node 35    -0.38338330123006203
+    Node 36    0.4996583848090991
+    Node 37    0.08780144448418913
+    Node 38    -0.3757295517047901
+    Node 39    0.06500807514363666
+    Node 40    -0.5078120866761073
+    Node 41    0.38801304796584896
+    Node 42    -0.3106408324455324
+    Node 43    -0.31247027788865805
+    Node 44    -0.1428883972849581
+    Node 45    -0.049214404923635366
+    Node 46    0.4058985439060859
+    Node 47    0.6661933836739224
+    Node 48    -0.31325212120818763
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.24571058954732716
+    Attrib min    -0.03873854654480489
+    Attrib maxcount    0.7058276407763444
+    Attrib umean    -0.16144105237654274
+    Attrib skewness    0.2594034973635115
+    Attrib stddev    0.3459424672260268
+    Attrib xCenterOfMass    -0.7571498899888726
+    Attrib yCenterOfMass    0.31116389288590396
+    Attrib mean    -0.13750727922801642
+    Attrib areaFraction    0.20078082380224857
+    Attrib histMax    0.021694662921011895
+    Attrib histMin    -0.019387230183849826
+    Attrib median    -0.3570494375980838
+    Attrib xCentroid    -0.7205097908852887
+    Attrib yCentroid    -0.2298235837917101
+    Attrib upperThreshold    7.406786633749468E-4
+    Attrib pixelCount    -0.3654632518000723
+    Attrib dmode    0.022910739242468548
+    Attrib area    -0.33990234320211915
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.1715026434291115
+    Attrib min    -0.0491382673800735
+    Attrib maxcount    -0.5952884481814055
+    Attrib umean    -0.22419390794484179
+    Attrib skewness    0.22545309226841495
+    Attrib stddev    -0.23563825661405297
+    Attrib xCenterOfMass    -0.04395116867631237
+    Attrib yCenterOfMass    -0.7096618809575986
+    Attrib mean    -0.22880713958694623
+    Attrib areaFraction    -0.289207902148959
+    Attrib histMax    -0.006714860088407118
+    Attrib histMin    0.0010752354741755399
+    Attrib median    0.07542264094627221
+    Attrib xCentroid    -0.017760591646751034
+    Attrib yCentroid    -0.6117510496350514
+    Attrib upperThreshold    0.03259756278873953
+    Attrib pixelCount    -0.24503635253724645
+    Attrib dmode    0.1664549000708182
+    Attrib area    -0.2506073759564561
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.12295834076596246
+    Attrib min    -0.001813155428890656
+    Attrib maxcount    -0.2267889557972726
+    Attrib umean    -0.21051770232670572
+    Attrib skewness    0.21507045586964743
+    Attrib stddev    -0.507017288948235
+    Attrib xCenterOfMass    -0.0708680303767591
+    Attrib yCenterOfMass    -0.4424418050926765
+    Attrib mean    -0.1789928406067787
+    Attrib areaFraction    -0.47527107152278664
+    Attrib histMax    0.011786181646625996
+    Attrib histMin    -0.024070573579570532
+    Attrib median    0.31137455050331037
+    Attrib xCentroid    -0.05067119390254999
+    Attrib yCentroid    -0.27219583258676083
+    Attrib upperThreshold    -0.01207889112971846
+    Attrib pixelCount    -0.0037058099088232207
+    Attrib dmode    0.05614778371887761
+    Attrib area    0.0032733431347829736
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.1964113963857873
+    Attrib min    -0.015015642691489917
+    Attrib maxcount    0.18438759018185502
+    Attrib umean    0.4373646909782779
+    Attrib skewness    -0.36377785464733026
+    Attrib stddev    0.57174000447991
+    Attrib xCenterOfMass    1.2973472752013828
+    Attrib yCenterOfMass    -0.4700719562033291
+    Attrib mean    0.5044438168410171
+    Attrib areaFraction    0.83790846593716
+    Attrib histMax    -0.0031954705454386584
+    Attrib histMin    0.045383880409784555
+    Attrib median    -0.20419547170935767
+    Attrib xCentroid    1.1335485750602772
+    Attrib yCentroid    -0.4687722553866977
+    Attrib upperThreshold    0.03464965463768831
+    Attrib pixelCount    0.2766737845674663
+    Attrib dmode    -0.3692529636887121
+    Attrib area    0.312424757680007
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.2798898845334733
+    Attrib min    0.021914050730164863
+    Attrib maxcount    -0.27379576121653143
+    Attrib umean    -0.47338647154173547
+    Attrib skewness    0.4234012618101601
+    Attrib stddev    -0.13699365051912019
+    Attrib xCenterOfMass    -0.29842237643228936
+    Attrib yCenterOfMass    -1.074075346577218
+    Attrib mean    -0.49048276592602885
+    Attrib areaFraction    -0.3694172983000695
+    Attrib histMax    -0.031413807563125035
+    Attrib histMin    -0.019551122810319423
+    Attrib median    -0.1840300372956351
+    Attrib xCentroid    -0.3625842340060103
+    Attrib yCentroid    -1.1165780515293207
+    Attrib upperThreshold    -0.020286122855518673
+    Attrib pixelCount    -0.6332354291265418
+    Attrib dmode    0.35624938491185665
+    Attrib area    -0.6733696724734588
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.10133971127119086
+    Attrib min    0.01390399970937567
+    Attrib maxcount    -0.01324426920256632
+    Attrib umean    0.17606398202292456
+    Attrib skewness    -0.08425479670103535
+    Attrib stddev    -0.17796920334581393
+    Attrib xCenterOfMass    0.530734182945959
+    Attrib yCenterOfMass    -0.045523052867569726
+    Attrib mean    0.19511439106636125
+    Attrib areaFraction    0.051534753457557085
+    Attrib histMax    0.021306641151812133
+    Attrib histMin    -0.004943026509929262
+    Attrib median    0.1832629318661134
+    Attrib xCentroid    0.5347898130590274
+    Attrib yCentroid    0.29700489561564514
+    Attrib upperThreshold    0.009136703209288041
+    Attrib pixelCount    0.484887617930014
+    Attrib dmode    -0.13940071484968358
+    Attrib area    0.48712431155775415
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.19658872338024097
+    Attrib min    -0.016249285177650778
+    Attrib maxcount    0.729062206583917
+    Attrib umean    -0.0044781059650672635
+    Attrib skewness    0.054997488559831054
+    Attrib stddev    0.6009167873577672
+    Attrib xCenterOfMass    1.260036014189456
+    Attrib yCenterOfMass    -0.16216141327630554
+    Attrib mean    0.016265882841572585
+    Attrib areaFraction    0.5147165118598114
+    Attrib histMax    0.03569322567495736
+    Attrib histMin    -0.039714823352317144
+    Attrib median    -0.4289292386793579
+    Attrib xCentroid    1.271213237707095
+    Attrib yCentroid    -0.39307753568464227
+    Attrib upperThreshold    -0.014549175962098829
+    Attrib pixelCount    0.3030394875279931
+    Attrib dmode    -0.29443988031836354
+    Attrib area    0.3753194031832641
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    0.11614158537865871
+    Attrib min    0.0242525172953017
+    Attrib maxcount    -0.24608419187319905
+    Attrib umean    -0.25403714895795426
+    Attrib skewness    0.15937434945297338
+    Attrib stddev    -0.7171581673528962
+    Attrib xCenterOfMass    1.2994011521774338
+    Attrib yCenterOfMass    -0.8354185174034161
+    Attrib mean    -0.235773318348946
+    Attrib areaFraction    -0.7086859693729548
+    Attrib histMax    -0.01857299315280945
+    Attrib histMin    -0.030976939814757853
+    Attrib median    0.3406091732176788
+    Attrib xCentroid    1.2895447479782212
+    Attrib yCentroid    -2.237469963295115E-4
+    Attrib upperThreshold    0.03518187082057832
+    Attrib pixelCount    0.5544887961713535
+    Attrib dmode    0.09072690906452827
+    Attrib area    0.5677555684917494
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.06328452306821117
+    Attrib min    0.022662858742601488
+    Attrib maxcount    0.10995329942409908
+    Attrib umean    -0.02930621942644403
+    Attrib skewness    0.12241975930837884
+    Attrib stddev    0.005097043731946467
+    Attrib xCenterOfMass    0.2670972986065232
+    Attrib yCenterOfMass    0.49866018242180954
+    Attrib mean    -0.042865352165996524
+    Attrib areaFraction    0.08552635717150409
+    Attrib histMax    -0.04763159073537361
+    Attrib histMin    0.017913736374224512
+    Attrib median    -0.16125858125015474
+    Attrib xCentroid    0.30160245913151323
+    Attrib yCentroid    0.41820759145398434
+    Attrib upperThreshold    -0.008289231966252184
+    Attrib pixelCount    0.4802587313154754
+    Attrib dmode    0.0987540523290282
+    Attrib area    0.4745544046757965
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.011927036190393423
+    Attrib min    -0.031117935463524673
+    Attrib maxcount    -0.28467430701658253
+    Attrib umean    0.05039993261141787
+    Attrib skewness    0.026195157359818786
+    Attrib stddev    -0.2889635987925906
+    Attrib xCenterOfMass    0.49971521930933105
+    Attrib yCenterOfMass    -0.4482644230204943
+    Attrib mean    0.038995200064144316
+    Attrib areaFraction    -0.18894808348766706
+    Attrib histMax    -0.029015375109684938
+    Attrib histMin    -0.023481814179526085
+    Attrib median    0.15271793183154575
+    Attrib xCentroid    0.5179030538858796
+    Attrib yCentroid    0.008676298447092449
+    Attrib upperThreshold    -0.00722319139187555
+    Attrib pixelCount    0.21857688622814328
+    Attrib dmode    0.08014539843892046
+    Attrib area    0.28903489700225327
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.1961383421890932
+    Attrib min    -0.0305390009971664
+    Attrib maxcount    0.5352708073402468
+    Attrib umean    0.15190564946427954
+    Attrib skewness    -0.12884938981710822
+    Attrib stddev    0.25771858136115466
+    Attrib xCenterOfMass    -0.15804320474575265
+    Attrib yCenterOfMass    1.2394848018209457
+    Attrib mean    0.13235838825218277
+    Attrib areaFraction    0.31219130390093863
+    Attrib histMax    0.029046586440755834
+    Attrib histMin    -0.04023436628053656
+    Attrib median    -0.17698918388698726
+    Attrib xCentroid    -0.13775589213312814
+    Attrib yCentroid    1.0391565988707125
+    Attrib upperThreshold    0.025082005025317225
+    Attrib pixelCount    0.43409215067306567
+    Attrib dmode    -0.11251784217396027
+    Attrib area    0.40249875202818536
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.3012940485388042
+    Attrib min    0.03201780630162036
+    Attrib maxcount    -0.23306807053783474
+    Attrib umean    -0.021010020757078054
+    Attrib skewness    0.1702196093114261
+    Attrib stddev    -0.19000277636722995
+    Attrib xCenterOfMass    -0.6193864833676365
+    Attrib yCenterOfMass    0.07988418618023771
+    Attrib mean    -0.09785623736791457
+    Attrib areaFraction    -0.11614251635662919
+    Attrib histMax    -0.007871258294006103
+    Attrib histMin    0.005733662092497885
+    Attrib median    0.1529956266874703
+    Attrib xCentroid    -0.5736893892561029
+    Attrib yCentroid    -0.09762292656250618
+    Attrib upperThreshold    -0.01908310176152819
+    Attrib pixelCount    -0.28358578791620187
+    Attrib dmode    0.18272119118964103
+    Attrib area    -0.24426304985809308
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.2926128996756285
+    Attrib min    0.04259685106621908
+    Attrib maxcount    -0.49922270239196126
+    Attrib umean    0.37919248757932955
+    Attrib skewness    -0.33327951770077413
+    Attrib stddev    0.08864298587580612
+    Attrib xCenterOfMass    -0.1298571378199377
+    Attrib yCenterOfMass    -0.9190949451972463
+    Attrib mean    0.33974395861628937
+    Attrib areaFraction    0.2902230847277356
+    Attrib histMax    -0.017286045258175668
+    Attrib histMin    -0.028003310293400877
+    Attrib median    0.15913228133549348
+    Attrib xCentroid    -0.3147473839957798
+    Attrib yCentroid    -0.7357307681567169
+    Attrib upperThreshold    -0.03169573602071672
+    Attrib pixelCount    -0.4070009403276109
+    Attrib dmode    -0.09653852053682227
+    Attrib area    -0.37719481923808196
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.2104167982318557
+    Attrib min    0.03355062157463565
+    Attrib maxcount    0.5025933456164555
+    Attrib umean    -0.0906977987927542
+    Attrib skewness    0.18804976728061013
+    Attrib stddev    0.3656282293577156
+    Attrib xCenterOfMass    0.037989886305422174
+    Attrib yCenterOfMass    -0.37527552607259174
+    Attrib mean    -0.14295788857214853
+    Attrib areaFraction    0.29179854560642304
+    Attrib histMax    -0.04942903506889647
+    Attrib histMin    0.04507592179788271
+    Attrib median    -0.34155308252715955
+    Attrib xCentroid    0.018183106960441266
+    Attrib yCentroid    -0.8367450064609394
+    Attrib upperThreshold    0.038839757424906834
+    Attrib pixelCount    -0.31999096138332556
+    Attrib dmode    0.0011396212921618285
+    Attrib area    -0.3205942586331319
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.11835668769192752
+    Attrib min    0.02401299820526416
+    Attrib maxcount    0.34071626680596806
+    Attrib umean    -0.0594472697363415
+    Attrib skewness    0.0782802607226372
+    Attrib stddev    0.12169085157658344
+    Attrib xCenterOfMass    0.40839828525067956
+    Attrib yCenterOfMass    0.42030292582364204
+    Attrib mean    -0.012219649619859165
+    Attrib areaFraction    0.1541622368148082
+    Attrib histMax    -0.013455659074546357
+    Attrib histMin    0.029390607163941193
+    Attrib median    -0.11689627810954677
+    Attrib xCentroid    0.4488784391000994
+    Attrib yCentroid    0.4257198313523972
+    Attrib upperThreshold    -0.03148486727699898
+    Attrib pixelCount    0.4744056556349189
+    Attrib dmode    -0.020158558111599043
+    Attrib area    0.39975084862816235
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    0.02215935597669315
+    Attrib min    0.02133110393823469
+    Attrib maxcount    -0.4604858833190833
+    Attrib umean    0.11855061106758696
+    Attrib skewness    -0.10725129897825642
+    Attrib stddev    -0.1871316540595082
+    Attrib xCenterOfMass    -0.28554675152301057
+    Attrib yCenterOfMass    0.32915210485954344
+    Attrib mean    0.09586911823037225
+    Attrib areaFraction    -0.02521296836205152
+    Attrib histMax    0.022038172484341464
+    Attrib histMin    0.003578187489315564
+    Attrib median    0.047298692818963296
+    Attrib xCentroid    -0.3074393514328941
+    Attrib yCentroid    0.41347645949192013
+    Attrib upperThreshold    0.02254133012536011
+    Attrib pixelCount    0.07565739445184587
+    Attrib dmode    0.11654825643028473
+    Attrib area    0.09529945659960833
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.06713256150847347
+    Attrib min    -0.019746308149674242
+    Attrib maxcount    -0.3987184400013227
+    Attrib umean    -0.2571164940485456
+    Attrib skewness    0.24650309740150098
+    Attrib stddev    -0.7596516445540289
+    Attrib xCenterOfMass    -0.43318334699525873
+    Attrib yCenterOfMass    -0.06904718425516586
+    Attrib mean    -0.31921275715566777
+    Attrib areaFraction    -0.8282867147818606
+    Attrib histMax    -0.03019249231639123
+    Attrib histMin    0.015677681830194704
+    Attrib median    0.382141551685479
+    Attrib xCentroid    -0.36094717560633316
+    Attrib yCentroid    0.5364663526780299
+    Attrib upperThreshold    0.032126212019157455
+    Attrib pixelCount    0.1195833414112083
+    Attrib dmode    0.17487404736853626
+    Attrib area    0.1602447172664833
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -0.3448108999983339
+    Attrib min    -0.018754663650378568
+    Attrib maxcount    -0.2603831498483105
+    Attrib umean    0.19529659936266996
+    Attrib skewness    0.039834332417252094
+    Attrib stddev    -0.09362695831303897
+    Attrib xCenterOfMass    -1.0962585420903044
+    Attrib yCenterOfMass    0.3218169553344164
+    Attrib mean    0.16631177248672585
+    Attrib areaFraction    0.09623985684256878
+    Attrib histMax    0.015499816970196742
+    Attrib histMin    7.195092830844865E-4
+    Attrib median    0.2097775341482722
+    Attrib xCentroid    -1.1348774881946846
+    Attrib yCentroid    0.024550118574179484
+    Attrib upperThreshold    -0.00359736068693748
+    Attrib pixelCount    -0.3052809689307303
+    Attrib dmode    0.12003283394733712
+    Attrib area    -0.24479933520555455
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -0.053315642528419915
+    Attrib min    0.04388816188910931
+    Attrib maxcount    0.19417730659837892
+    Attrib umean    -0.09050913802688076
+    Attrib skewness    0.07572563649484162
+    Attrib stddev    0.02736611340213202
+    Attrib xCenterOfMass    0.652208022519434
+    Attrib yCenterOfMass    -0.6206988441075454
+    Attrib mean    -0.07908158384083314
+    Attrib areaFraction    -0.020800269253057422
+    Attrib histMax    0.01847814689315483
+    Attrib histMin    0.0364150951605831
+    Attrib median    -0.0747744594150607
+    Attrib xCentroid    0.6843587906989963
+    Attrib yCentroid    -0.31779505641442446
+    Attrib upperThreshold    0.011470171487391968
+    Attrib pixelCount    0.09823824200633038
+    Attrib dmode    -0.003751539809604553
+    Attrib area    0.14779024362247334
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    0.018564184999628988
+    Attrib min    0.027023429587306844
+    Attrib maxcount    -0.05810707055509915
+    Attrib umean    0.13626407238648142
+    Attrib skewness    -0.07029173725947772
+    Attrib stddev    0.032631647036045076
+    Attrib xCenterOfMass    0.0908457074792375
+    Attrib yCenterOfMass    0.3860178973026616
+    Attrib mean    0.144312953163069
+    Attrib areaFraction    0.252080346026416
+    Attrib histMax    -0.02434362810487957
+    Attrib histMin    0.029682515518316452
+    Attrib median    0.04857151290041104
+    Attrib xCentroid    0.06052768028755536
+    Attrib yCentroid    0.4852879698540101
+    Attrib upperThreshold    -0.00881022195138511
+    Attrib pixelCount    0.26156147323377704
+    Attrib dmode    -0.040535136918763495
+    Attrib area    0.26803700069141734
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    0.050051271891691965
+    Attrib min    0.004644222421406531
+    Attrib maxcount    1.0009593233898806
+    Attrib umean    -0.013636380686580822
+    Attrib skewness    0.08284367155011264
+    Attrib stddev    0.9381830385446008
+    Attrib xCenterOfMass    0.7602073344695645
+    Attrib yCenterOfMass    -0.38159292205101125
+    Attrib mean    -0.06099487880706387
+    Attrib areaFraction    0.6991389595636923
+    Attrib histMax    -0.04642161702893776
+    Attrib histMin    0.017844701183725914
+    Attrib median    -0.6632935271435656
+    Attrib xCentroid    0.7530005808185264
+    Attrib yCentroid    -0.8871924269064634
+    Attrib upperThreshold    0.048029825074629745
+    Attrib pixelCount    -0.14981517326637206
+    Attrib dmode    -0.013283604800661451
+    Attrib area    -0.174497776113404
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    -0.37486049865528076
+    Attrib min    -0.03513942801283209
+    Attrib maxcount    -0.18166253328453125
+    Attrib umean    -0.09527816922693616
+    Attrib skewness    0.12291509541022631
+    Attrib stddev    0.014393828888550918
+    Attrib xCenterOfMass    -1.3562767881985875
+    Attrib yCenterOfMass    0.6002511913386773
+    Attrib mean    -0.10324568317667113
+    Attrib areaFraction    0.01572094690261437
+    Attrib histMax    -0.032950724705474145
+    Attrib histMin    -0.0024388211832891
+    Attrib median    -0.014068308216721033
+    Attrib xCentroid    -1.294063156580761
+    Attrib yCentroid    0.16795668836950087
+    Attrib upperThreshold    -9.045207438240777E-5
+    Attrib pixelCount    -0.39101454979168865
+    Attrib dmode    0.25100861363990434
+    Attrib area    -0.3419152389170747
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    0.1359489707679693
+    Attrib min    0.047737802038675406
+    Attrib maxcount    0.8070889710196135
+    Attrib umean    -0.3203255664709786
+    Attrib skewness    0.38617537930386997
+    Attrib stddev    0.17889012688327482
+    Attrib xCenterOfMass    0.8269100503737199
+    Attrib yCenterOfMass    -0.010452241073377251
+    Attrib mean    -0.318076442263397
+    Attrib areaFraction    -0.048098091332980826
+    Attrib histMax    0.02778636444564811
+    Attrib histMin    -5.044276800167738E-4
+    Attrib median    -0.345061406062027
+    Attrib xCentroid    0.9160479480652592
+    Attrib yCentroid    -0.12073898573733376
+    Attrib upperThreshold    0.02283482147545511
+    Attrib pixelCount    0.28971800656230656
+    Attrib dmode    -0.05159682829489099
+    Attrib area    0.31243278501508137
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    -0.05618461067921996
+    Attrib min    -0.017963170264953733
+    Attrib maxcount    0.1844841815785818
+    Attrib umean    0.546194279889057
+    Attrib skewness    -0.3562431660651972
+    Attrib stddev    0.1796187730985072
+    Attrib xCenterOfMass    0.338370917870176
+    Attrib yCenterOfMass    0.5119244577492551
+    Attrib mean    0.542744827211509
+    Attrib areaFraction    0.5179984104171872
+    Attrib histMax    0.009205561163884178
+    Attrib histMin    -0.007828561332701524
+    Attrib median    0.27691509846071993
+    Attrib xCentroid    0.2827231880946209
+    Attrib yCentroid    0.6911679681958663
+    Attrib upperThreshold    -0.027654739127078855
+    Attrib pixelCount    0.5639890507918078
+    Attrib dmode    -0.27177684451337475
+    Attrib area    0.5610003843758294
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    -0.3485055656363338
+    Attrib min    -0.02923590167358281
+    Attrib maxcount    -0.49549368011361355
+    Attrib umean    0.1959198151702003
+    Attrib skewness    -0.11154443656417463
+    Attrib stddev    -0.06995490689691372
+    Attrib xCenterOfMass    -0.7837621875090092
+    Attrib yCenterOfMass    0.08878153954047165
+    Attrib mean    0.23173639229539966
+    Attrib areaFraction    0.16428601872021234
+    Attrib histMax    -0.023741320435640513
+    Attrib histMin    -0.004780660310035115
+    Attrib median    0.24785499264565203
+    Attrib xCentroid    -0.898697849071962
+    Attrib yCentroid    -0.09737699028935888
+    Attrib upperThreshold    -0.038645669359208684
+    Attrib pixelCount    -0.3375846004192322
+    Attrib dmode    0.203664764103801
+    Attrib area    -0.31905707259580096
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    -0.25942989672099875
+    Attrib min    -8.617050637471438E-4
+    Attrib maxcount    -0.532320130933457
+    Attrib umean    -0.1953527342796242
+    Attrib skewness    0.1680373390259145
+    Attrib stddev    -0.27038920561506896
+    Attrib xCenterOfMass    -0.15126756801248073
+    Attrib yCenterOfMass    -0.5821577083779743
+    Attrib mean    -0.21464806323945193
+    Attrib areaFraction    -0.3884980201700555
+    Attrib histMax    0.013512650500319828
+    Attrib histMin    -0.030810208193569333
+    Attrib median    0.07164315171588687
+    Attrib xCentroid    -0.12720346342661926
+    Attrib yCentroid    -0.5257627351100567
+    Attrib upperThreshold    -0.011793835784809234
+    Attrib pixelCount    -0.2969565630907468
+    Attrib dmode    0.26630465256273106
+    Attrib area    -0.3006632562517133
+Sigmoid Node 36
+    Inputs    Weights
+    Threshold    -0.010386043894819412
+    Attrib min    -0.029948356201707205
+    Attrib maxcount    0.5485963189517657
+    Attrib umean    -0.0014706098582760647
+    Attrib skewness    0.13041840858663814
+    Attrib stddev    0.30251635524553955
+    Attrib xCenterOfMass    -1.2295133421924676
+    Attrib yCenterOfMass    1.0596185236627513
+    Attrib mean    -0.07031859938037155
+    Attrib areaFraction    0.3270636999206868
+    Attrib histMax    -0.02472322369350323
+    Attrib histMin    -0.049862343578946616
+    Attrib median    -0.2881674530721906
+    Attrib xCentroid    -1.138645240481884
+    Attrib yCentroid    0.3120609779629746
+    Attrib upperThreshold    -0.034399601935864034
+    Attrib pixelCount    -0.32412435109689414
+    Attrib dmode    -0.21716647594602492
+    Attrib area    -0.34336909350252004
+Sigmoid Node 37
+    Inputs    Weights
+    Threshold    0.09716044730881727
+    Attrib min    -0.012147148731891946
+    Attrib maxcount    0.20446380948917658
+    Attrib umean    0.023366690403725805
+    Attrib skewness    0.09280381114410576
+    Attrib stddev    -0.12169360819945986
+    Attrib xCenterOfMass    0.448263431209482
+    Attrib yCenterOfMass    0.6031195671430304
+    Attrib mean    -0.01988970110257613
+    Attrib areaFraction    0.07504416046976514
+    Attrib histMax    0.04289431874094886
+    Attrib histMin    0.041930251337650756
+    Attrib median    -0.012078388294479641
+    Attrib xCentroid    0.4797092596928092
+    Attrib yCentroid    0.7119138841556141
+    Attrib upperThreshold    0.043656831095101614
+    Attrib pixelCount    0.6570083578508346
+    Attrib dmode    -0.005517930042193897
+    Attrib area    0.6321083485077146
+Sigmoid Node 38
+    Inputs    Weights
+    Threshold    -0.2620769445842255
+    Attrib min    0.005247523939564382
+    Attrib maxcount    -0.5511548616300224
+    Attrib umean    -0.129642576648022
+    Attrib skewness    0.27815472811412056
+    Attrib stddev    -0.7934206734640844
+    Attrib xCenterOfMass    -0.3240817404563837
+    Attrib yCenterOfMass    -0.3608248715552755
+    Attrib mean    -0.16305137680277257
+    Attrib areaFraction    -0.7894735395518302
+    Attrib histMax    0.0128817867453688
+    Attrib histMin    7.559040434180209E-4
+    Attrib median    0.5534615562535034
+    Attrib xCentroid    -0.2991119786295253
+    Attrib yCentroid    0.03825342116554062
+    Attrib upperThreshold    -0.024324739792378137
+    Attrib pixelCount    0.05446740222537984
+    Attrib dmode    0.20508600232546412
+    Attrib area    0.04272243357826326
+Sigmoid Node 39
+    Inputs    Weights
+    Threshold    -0.03195027350417834
+    Attrib min    -0.02840410571877987
+    Attrib maxcount    0.11405360677258101
+    Attrib umean    0.6397044225017386
+    Attrib skewness    -0.41224044650657843
+    Attrib stddev    0.15334490993284475
+    Attrib xCenterOfMass    0.7934080272144236
+    Attrib yCenterOfMass    0.3310549009768629
+    Attrib mean    0.5875171869816844
+    Attrib areaFraction    0.6539994013342812
+    Attrib histMax    0.04250305616758841
+    Attrib histMin    -0.043937128095720125
+    Attrib median    0.20378290482219807
+    Attrib xCentroid    0.6735324848438332
+    Attrib yCentroid    0.36827357188846405
+    Attrib upperThreshold    -0.047180942442446576
+    Attrib pixelCount    0.6530728488810024
+    Attrib dmode    -0.39037952392161573
+    Attrib area    0.6937218065470344
+Sigmoid Node 40
+    Inputs    Weights
+    Threshold    0.007756523046816687
+    Attrib min    -0.02241162208966191
+    Attrib maxcount    -0.6807001863211833
+    Attrib umean    0.02541725252030014
+    Attrib skewness    -0.05525054178848507
+    Attrib stddev    -0.6461295461277378
+    Attrib xCenterOfMass    0.873180076590727
+    Attrib yCenterOfMass    -0.7519760493310251
+    Attrib mean    0.037895130057029054
+    Attrib areaFraction    -0.4824011306014416
+    Attrib histMax    0.015065368558053877
+    Attrib histMin    0.026181588432829805
+    Attrib median    0.515840308507761
+    Attrib xCentroid    0.8216217481194888
+    Attrib yCentroid    0.1263325679133536
+    Attrib upperThreshold    -0.04505279997841787
+    Attrib pixelCount    0.46126859380532986
+    Attrib dmode    0.08779294329564694
+    Attrib area    0.4477693858532599
+Sigmoid Node 41
+    Inputs    Weights
+    Threshold    0.0016685588211336456
+    Attrib min    0.045684285016415915
+    Attrib maxcount    0.15710277139634626
+    Attrib umean    -0.07530932491200779
+    Attrib skewness    0.19433802592400534
+    Attrib stddev    -0.21039347726402513
+    Attrib xCenterOfMass    -0.023110999089900122
+    Attrib yCenterOfMass    1.0015212226843833
+    Attrib mean    -0.14070026522104542
+    Attrib areaFraction    -0.11374182293514293
+    Attrib histMax    -9.546396305391419E-4
+    Attrib histMin    -0.04481576484078928
+    Attrib median    0.06388181969384804
+    Attrib xCentroid    0.08421993613610623
+    Attrib yCentroid    0.8440401918703517
+    Attrib upperThreshold    0.016240519733025996
+    Attrib pixelCount    0.4463149363875612
+    Attrib dmode    0.130588111503842
+    Attrib area    0.5275214191275468
+Sigmoid Node 42
+    Inputs    Weights
+    Threshold    -0.21383415962821203
+    Attrib min    0.026118740059961162
+    Attrib maxcount    -0.42182267148309077
+    Attrib umean    -0.06330766169840575
+    Attrib skewness    0.23511013880818668
+    Attrib stddev    -0.442237147421109
+    Attrib xCenterOfMass    -0.3466081911741297
+    Attrib yCenterOfMass    -0.2325165385599864
+    Attrib mean    -0.08285192019039246
+    Attrib areaFraction    -0.47353062765535214
+    Attrib histMax    0.025605695014502786
+    Attrib histMin    -0.008282173457854328
+    Attrib median    0.3795404314536434
+    Attrib xCentroid    -0.31579654960648357
+    Attrib yCentroid    -0.09024455122984597
+    Attrib upperThreshold    0.01353708838686915
+    Attrib pixelCount    -0.038340808382354305
+    Attrib dmode    -0.004733726926808878
+    Attrib area    -0.08017690032785854
+Sigmoid Node 43
+    Inputs    Weights
+    Threshold    -0.2926353508130137
+    Attrib min    0.02400275857342518
+    Attrib maxcount    -0.10333162949601948
+    Attrib umean    0.20624622996737896
+    Attrib skewness    -0.06329678976164685
+    Attrib stddev    -0.05075525681947986
+    Attrib xCenterOfMass    -0.5539791107782922
+    Attrib yCenterOfMass    -0.2876310055317252
+    Attrib mean    0.2014024487646695
+    Attrib areaFraction    0.12514896439045137
+    Attrib histMax    -0.01368430410995445
+    Attrib histMin    -0.027108384118115947
+    Attrib median    0.24235283034151198
+    Attrib xCentroid    -0.6169442318577855
+    Attrib yCentroid    -0.12820291401388362
+    Attrib upperThreshold    0.03419613034900147
+    Attrib pixelCount    -0.23664161293413868
+    Attrib dmode    -0.009688774455475863
+    Attrib area    -0.17027247574125018
+Sigmoid Node 44
+    Inputs    Weights
+    Threshold    -0.012561190992957213
+    Attrib min    -0.0018413093163345481
+    Attrib maxcount    0.18351395220453198
+    Attrib umean    -0.21395718431775818
+    Attrib skewness    0.3008380124125627
+    Attrib stddev    -0.23081006546521493
+    Attrib xCenterOfMass    -0.08923164872057625
+    Attrib yCenterOfMass    0.12944435067369375
+    Attrib mean    -0.2502774673554587
+    Attrib areaFraction    -0.29159404623074464
+    Attrib histMax    0.02885975015077917
+    Attrib histMin    0.04663281234310307
+    Attrib median    -0.01206640447690341
+    Attrib xCentroid    0.002262402362239251
+    Attrib yCentroid    0.11274328914453206
+    Attrib upperThreshold    0.032767153261078166
+    Attrib pixelCount    0.0536317981282656
+    Attrib dmode    0.09901014221290665
+    Attrib area    0.05527217433336801
+Sigmoid Node 45
+    Inputs    Weights
+    Threshold    0.014077687156110111
+    Attrib min    0.0069903603032874795
+    Attrib maxcount    0.08330245665303491
+    Attrib umean    -0.1289335593228185
+    Attrib skewness    0.19460140420591165
+    Attrib stddev    -0.030874436716832824
+    Attrib xCenterOfMass    0.23676772533840704
+    Attrib yCenterOfMass    0.2746773716634382
+    Attrib mean    -0.15956745529499056
+    Attrib areaFraction    -0.014807567127468148
+    Attrib histMax    -0.03885484954852865
+    Attrib histMin    7.198841319274868E-4
+    Attrib median    -0.09841903290237852
+    Attrib xCentroid    0.34763551338192633
+    Attrib yCentroid    0.31373131488809614
+    Attrib upperThreshold    -0.018763381220042553
+    Attrib pixelCount    0.36315206072592127
+    Attrib dmode    0.07547676444059111
+    Attrib area    0.33834133466213195
+Sigmoid Node 46
+    Inputs    Weights
+    Threshold    -0.0961230019792272
+    Attrib min    -0.04047724915822096
+    Attrib maxcount    -0.07142579576113556
+    Attrib umean    0.37844992001418354
+    Attrib skewness    -0.23482739269063252
+    Attrib stddev    0.31872488937017923
+    Attrib xCenterOfMass    -0.16426485130641513
+    Attrib yCenterOfMass    0.6373228476042875
+    Attrib mean    0.435250400460821
+    Attrib areaFraction    0.5977490251609833
+    Attrib histMax    -0.025359971159688036
+    Attrib histMin    -0.03200160856440125
+    Attrib median    0.096912838071711
+    Attrib xCentroid    -0.233120141266411
+    Attrib yCentroid    0.41720295899940885
+    Attrib upperThreshold    -0.014596784163396395
+    Attrib pixelCount    0.17383119748396933
+    Attrib dmode    -0.20238086885779177
+    Attrib area    0.1374782381893275
+Sigmoid Node 47
+    Inputs    Weights
+    Threshold    0.15749954894523702
+    Attrib min    -0.016477627802805483
+    Attrib maxcount    0.010605073745811995
+    Attrib umean    -0.43854843579554165
+    Attrib skewness    0.4550069512859792
+    Attrib stddev    -0.3602918418437464
+    Attrib xCenterOfMass    -0.17247218622166804
+    Attrib yCenterOfMass    1.4983663840603731
+    Attrib mean    -0.39418097018793846
+    Attrib areaFraction    -0.436974817173861
+    Attrib histMax    0.03619812028523482
+    Attrib histMin    -0.02288184029933096
+    Attrib median    -0.0343627211333985
+    Attrib xCentroid    0.14120385621357906
+    Attrib yCentroid    1.169459244159683
+    Attrib upperThreshold    0.017144153957052155
+    Attrib pixelCount    0.627637014514806
+    Attrib dmode    0.29655529704241335
+    Attrib area    0.5958715062060098
+Sigmoid Node 48
+    Inputs    Weights
+    Threshold    -0.25058096202770247
+    Attrib min    0.008089491730799557
+    Attrib maxcount    0.023373683557768
+    Attrib umean    0.26842264153050915
+    Attrib skewness    -0.1713182269237484
+    Attrib stddev    0.4638236609217093
+    Attrib xCenterOfMass    0.06784847589376669
+    Attrib yCenterOfMass    -0.43535694062978725
+    Attrib mean    0.3145950021453085
+    Attrib areaFraction    0.515012500704641
+    Attrib histMax    -7.723764987817988E-5
+    Attrib histMin    -0.0026793461407886993
+    Attrib median    -0.09129982146470063
+    Attrib xCentroid    -0.07164347663251568
+    Attrib yCentroid    -0.758978335706671
+    Attrib upperThreshold    0.0024621773511414383
+    Attrib pixelCount    -0.2603010659659918
+    Attrib dmode    -0.07052660819820475
+    Attrib area    -0.2545333150784843
+Class airplanes
+    Input
+    Node 0
+Class faces
+    Input
+    Node 1
+Class brain
+    Input
+    Node 2
+Class leopards
+    Input
+    Node 3
+Class motorbikes
+    Input
+    Node 4
+Class grand_piano
+    Input
+    Node 5
+Class watch
+    Input
+    Node 6
+Class bonsai
+    Input
+    Node 7
+Class car_side
+    Input
+    Node 8
+Class chandelier
+    Input
+    Node 9
+
+
+Time taken to build model: 0.35 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          38               76      %
+Incorrectly Classified Instances        12               24      %
+Kappa statistic                          0.7333
+Mean absolute error                      0.1133
+Root mean squared error                  0.2141
+Relative absolute error                 62.943  %
+Root relative squared error             71.361  %
+Total Number of Instances               50     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     airplanes
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     faces
+                 0,800    0,000    1,000      0,800    0,889      0,885    0,827     0,823     brain
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     leopards
+                 1,000    0,022    0,833      1,000    0,909      0,903    0,991     0,943     motorbikes
+                 0,800    0,089    0,500      0,800    0,615      0,582    0,924     0,478     grand_piano
+                 0,000    0,022    0,000      0,000    0,000      -0,048   0,796     0,557     watch
+                 0,400    0,022    0,667      0,400    0,500      0,477    0,871     0,557     bonsai
+                 1,000    0,022    0,833      1,000    0,909      0,903    0,991     0,927     car_side
+                 0,600    0,089    0,429      0,600    0,500      0,442    0,893     0,593     chandelier
+Weighted Avg.    0,760    0,027    0,726      0,760    0,732      0,714    0,929     0,788     
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j   <-- classified as
+ 5 0 0 0 0 0 0 0 0 0 | a = airplanes
+ 0 5 0 0 0 0 0 0 0 0 | b = faces
+ 0 0 4 0 0 1 0 0 0 0 | c = brain
+ 0 0 0 5 0 0 0 0 0 0 | d = leopards
+ 0 0 0 0 5 0 0 0 0 0 | e = motorbikes
+ 0 0 0 0 0 4 1 0 0 0 | f = grand_piano
+ 0 0 0 0 1 1 0 0 0 3 | g = watch
+ 0 0 0 0 0 1 0 2 1 1 | h = bonsai
+ 0 0 0 0 0 0 0 0 5 0 | i = car_side
+ 0 0 0 0 0 1 0 1 0 3 | j = chandelier
+
